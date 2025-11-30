@@ -53,7 +53,7 @@ const ProfileSection = () => {
             {/* Bio */}
             <motion.div variants={itemVariants} className="space-y-4 max-w-lg">
                 <p className="text-xl leading-relaxed">
-                    Since you're already here, you must be somewhat interested. This is just a <span className="font-bold">personal</span> website to share my stuff or something.
+                    You actually clicked the link lol. Since you're here, you must have taste. This is just a <span className="font-bold">personal</span> site to share my stuff or something.
                 </p>
                 <p className="text-brand-blue dark:text-white text-sm">
                     Check these out 😉

@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 import { SpotifyIcon, AppleMusicIcon, YouTubeIcon, LetterboxdIcon } from './components/Icons';
 import ProfileSection from './components/ProfileSection';
 import SocialLink from './components/SocialLink';
@@ -36,6 +37,7 @@ function App() {
           ))}
         </motion.div>
       </main>
+      <Analytics />
     </div>
   );
 }
