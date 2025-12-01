@@ -37,7 +37,7 @@ export const YouTubeIcon = (props) => (
 
 export const LetterboxdIcon = (props) => (
     <svg
-        viewBox="0 0 500 500"
+        viewBox="-25 -25 550 550"
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"
         {...props}

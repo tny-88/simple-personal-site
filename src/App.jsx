@@ -27,7 +27,7 @@ function App() {
 
         {/* Social Links Row */}
         <motion.div
-          className="flex flex-wrap gap-x-8 gap-y-4 items-center"
+          className="grid grid-cols-2 sm:flex sm:flex-wrap gap-x-8 gap-y-6 sm:gap-y-4 items-center justify-items-start"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.5 }}
